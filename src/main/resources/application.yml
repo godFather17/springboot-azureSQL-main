@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://mafdbpgsrv.postgres.database.azure.com:5432/postgres
+    username: mohamed
+    password: Azure2022
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 9191
+
+
