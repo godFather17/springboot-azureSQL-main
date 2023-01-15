@@ -50,4 +50,4 @@ jobs:
           app-name: 'employee-spring'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_48B15B106B3646DFA97170E470135638 }}
-          package: '${{ github.workspace }}/target/*.jar'
+          package: '/*.jar'
